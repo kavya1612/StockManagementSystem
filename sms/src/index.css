@@ -1,0 +1,94 @@
+/*Top Navbar*/
+  .topnav {
+    overflow: hidden;
+    background-color: #111;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  .topnav-link {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav-link:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav-link .active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  /*Side Bar*/
+  .sidenav {
+    list-style-type:none;
+    text-decoration: none;
+    height: 93%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top:1;
+    bottom:0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav-link {
+    padding: 6px 8px 6px 16px;
+    text-decoration:none;
+    font-size: 25px;
+    color: #f2f2f2;
+    display: block;
+    font-size: 17px;
+  }
+  
+  .sidenav-link:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .main {
+    margin-top: 80px ;
+    margin-left: 160px; /* Same as the width of the sidenav */
+    /*font-size: 28px; /* Increased text to enable scrolling */
+    padding: 10px 10px;
+    top:2;
+  }
+
+  .centering{
+    
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
+  body{
+    background-image: url('https://images.pexels.com/photos/186461/pexels-photo-186461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+  }
+
+  .whitebg{
+    background-color: #fff;
+    background-size: 1080px;
+  }

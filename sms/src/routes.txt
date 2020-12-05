@@ -1,0 +1,54 @@
+import Register from "./component/common/Register.js";
+import Forgotpassword from "./component/common/ForgotPassword.js";
+
+/*User Paths*/
+import Adduser from "./component/user/AddUser.js";
+import Edituser from "./component/user/EditUser.js";
+import Deleteuser from "./component/user/DeleteUser.js";
+import Userlisting from "./component/user/UserListing.js";
+import Userprofile from "./component/user/UserProfile.js";
+
+/*Company Paths*/
+import Addcompany from "./component/company/AddCompany.js";
+import Editcompany from "./component/company/EditCompany.js";
+import Deletecompany from "./component/company/DeleteCompany.js";
+import Companylisting from "./component/company/CompanyListing.js";
+
+/*Stock Paths*/
+import Addstock from "./component/stock/AddStock.js";
+import Editstock from "./component/stock/EditStock.js";
+import Deletestock from "./component/stock/DeleteStock.js";
+import Buystockprompt from "./component/stock/BuyStockPrompt.js";
+import Sellstockprompt from "./component/stock/sellStockPrompt.js";
+import Stocklisting from "./component/stock/StockListing.js";
+import Investorstocklisting from "./component/stock/InvestorStockListing.js";
+import Owninvestortocklisting from "./component/stock/OwnInvestorStockListing.js";
+
+              
+              <Route path="/" component={Login}/>
+              <Route path="/Register" component={Register}/>
+              <Route path="/Adduser" component={Adduser}/>
+              <Route path="/Edituser" component={Edituser}/>
+              <Route path="/Addcompany" component={Addcompany}/>
+              <Route path="/Editcompany" component={Editcompany}/>
+              <Route path="/Userprofile" component={Userprofile}/>
+              <Route path="/Addstock" component={Addstock}/>
+              <Route path="/Editstock" component={Editstock}/>
+              <Route path="/Forgotpassword" component={Forgotpassword}/>
+              <Route path="/Deletestock" component={Deletestock}/>
+              <Route path="/Deletecompany" component={Deletecompany}/>
+              <Route path="/Deleteuser" component={Deleteuser}/>
+              <Route path="/Buystockprompt" component={Buystockprompt}/>
+              <Route path="/Sellstockprompt" component={Sellstockprompt}/>
+              <Route path="/Userlisting" component={Userlisting}/>
+              <Route path="/Stocklisting" component={Stocklisting}/>
+              <Route path="/Investorstocklisting" component={Investorstocklisting}/>
+              <Route path="/Owninvestorstocklisting" component={Owninvestortocklisting}/>
+              <Route path="/Companylisting" component={Companylisting}/>
+
+ <ul className="header">
+                <li><NavLink to="/">Home</NavLink></li>
+                <li className="pull-right"><NavLink to="/contact">Logout</NavLink></li>
+                <li className="pull-right"><NavLink to="/Userprofile">Profile</NavLink></li>
+                
+            </ul>
